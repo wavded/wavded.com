@@ -4,7 +4,8 @@ require "stringex"
 
 ## -- Rsync Deploy config -- ##
 # Be sure your public key is listed in your server's ~/.ssh/authorized_keys file
-ssh_user       = "wavded@wwt-virt-arc-web11"
+ssh_user       = "sawyer@wwt-virt-arc-web11"
+ssh_user2      = "sawyer@wwt-virt-arc-web20"
 ssh_port       = "22"
 document_root  = "/var/www/wavded.com"
 rsync_delete   = true
@@ -238,6 +239,7 @@ task :rsync do
   end
   puts "## Deploying website via Rsync"
   ok_failed system("rsync -avze 'ssh -p #{ssh_port}' #{exclude} #{"--delete" unless rsync_delete == false} #{public_dir}/ #{ssh_user}:#{document_root}")
+  ok_failed system("rsync -avze 'ssh -p #{ssh_port}' #{exclude} #{"--delete" unless rsync_delete == false} #{public_dir}/ #{ssh_user2}:#{document_root}")
 end
 
 desc "deploy public directory to github pages"
