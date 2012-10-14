@@ -10,6 +10,8 @@ categories:
   - MacOs
 ---
 
+**Updated: 10/13/12**: I still use Gnome Shell but switched to [Arch Linux](//archlinux.org) for a disto over Ubuntu.
+
 Some [heat](http://www.technewsworld.com/story/73026.html) has [been](http://www.zdnet.com/blog/open-source/linus-torvalds-would-like-to-see-a-gnome-fork/9347] [rising](http://www.datamation.com/open-source/the-gnome-3-meltdown.html) around [Gnome 3/Shell](http://gnome3.org) spurned mostly by some comments Linus Torvalds had in opposition to the updated desktop environment.  This post really hasn't much to do with Linus however (I like Linus, I use his [operating system](http://kernel.org) and [version control system](http://git-scm.com/) daily)
 
 I like Gnome 3/Shell a lot and, like [the Vim article I wrote](/blog/2011/08/07/my-text-editor-journey-so-far), it was an adjustment from what I was used to but I think its heading in the right direction (although not perfectly).  I'm not really here to convince you of a my stance though.  I just want to tell you what I like about it:
